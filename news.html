@@ -60,7 +60,7 @@
             font-size: 1.2em; /* 文字サイズを大きくする */
         }
         .qr-code {
-            width: 33.33%; /* 画像の幅を1/3に設定 */
+            width: 50%; /* 画像の幅を1/2に設定 */
             height: auto; /* アスペクト比を維持 */
         }
         /* スマホ対応のレスポンシブデザイン */
@@ -85,6 +85,9 @@
             header img {
                 margin-right: 0;
                 margin-bottom: 10px;
+            }
+            .qr-code {
+                width: 100%; /* スマホでは全幅 */
             }
         }
     </style>
