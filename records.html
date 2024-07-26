@@ -56,23 +56,47 @@
             text-align: center;
             padding: 1em 0;
         }
- footer p {
+        footer p {
             font-size: 1.2em; /* 文字サイズを大きくする */
         }
-.activity-image {
+        .activity-image {
             width: 33%; /* 画像を1/3に縮小 */
             height: auto;
             margin-bottom: 20px;
+        }
+        /* スマホ対応のレスポンシブデザイン */
+        @media (max-width: 768px) {
+            nav {
+                width: 100%;
+                padding: 0;
+            }
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+            main {
+                flex-direction: column;
+            }
+            .container {
+                padding: 10px;
+            }
+            header {
+                flex-direction: column;
+            }
+            header img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-<img src="IMG_0081.JPG" alt="Kids Logo">
+        <img src="IMG_0081.JPG" alt="Kids Logo">
         <h1>未来キッズアカデミー</h1>
     </header>
     <main>
-         <nav>
+        <nav>
             <a href="index.html">ホーム</a>
             <a href="greeting.html">代表挨拶</a>
             <a href="activities.html">活動内容・予定</a>
@@ -86,13 +110,13 @@
             <h2>活動の記録</h2>
             <p>これまでの活動の記録を紹介しています。</p>
             <!-- ここに写真やビデオのギャラリーを追加 -->
-<h3>創設会(2024/5/25)</h3>
+            <h3>創設会(2024/5/25)</h3>
             <p>5月25日に未来キッズアカデミーの創設会を開きました。以下はその時の写真です。</p>
             <img src="IMG_4742.JPG" alt="創設会の写真" class="activity-image">
         </div>
     </main>
-     <footer>
-        <p><問い合わせ先>　　　　[Mail]　mirai.kids.academy.2024.05.25@gmail.com　　　　[Tell]　090-7113-0525</p>
+    <footer>
+        <p><問い合わせ先> [Mail] mirai.kids.academy.2024.05.25@gmail.com [Tell] 090-7113-0525</p>
     </footer>
 </body>
 </html>

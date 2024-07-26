@@ -63,6 +63,30 @@
             width: 33.33%; /* 画像の幅を1/3に設定 */
             height: auto; /* アスペクト比を維持 */
         }
+        /* スマホ対応のレスポンシブデザイン */
+        @media (max-width: 768px) {
+            nav {
+                width: 100%;
+                padding: 0;
+            }
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+            main {
+                flex-direction: column;
+            }
+            .container {
+                padding: 10px;
+            }
+            header {
+                flex-direction: column;
+            }
+            header img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -85,12 +109,12 @@
             <h2>お知らせ</h2>
             <p>未来キッズアカデミーからのお知らせです。</p>
             <br><h3>公式インスタグラム開設のお知らせ</h3>
-　　　　　　<br>未来キッズアカデミー公式インスタグラムを開設しました！ぜひフォローお願いします！
+            <br>未来キッズアカデミー公式インスタグラムを開設しました！ぜひフォローお願いします！
             <img src="S__151093272.jpg" alt="Instagram QR Code" class="qr-code">
         </div>
     </main>
     <footer>
-        <p><問い合わせ先>　　　　[Mail]　mirai.kids.academy.2024.05.25@gmail.com　　　　[Tell]　090-7113-0525</p>
+        <p><問い合わせ先> [Mail] mirai.kids.academy.2024.05.25@gmail.com [Tell] 090-7113-0525</p>
     </footer>
 </body>
 </html>
