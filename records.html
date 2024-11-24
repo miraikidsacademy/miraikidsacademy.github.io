@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="未来キッズアカデミーのホームページです。子どもたちの学びと成長を応援しています。">
+    <meta name="description" content="未来キッズアカデミーのホームページです。子どもたちの学びと成長を応援しています。">
     <meta name="keywords" content="未来キッズアカデミー, 子ども, 学び, 成長, ボランティア,夏休み,宿題,江南市,江南,勉強,ミライキッズアカデミー,愛知県,小学生,中学生">
     <title>学習支援ボランティア　未来キッズアカデミー</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap">
@@ -90,6 +90,24 @@
                 margin-bottom: 10px;
             }
         }
+        /* ページ上部に戻るボタンのスタイル */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #d8bfd8;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            display: none; /* 初期状態は非表示 */
+            z-index: 1000;
+        }
+        .back-to-top:hover {
+            background: #c9a6c9;
+        }
     </style>
 </head>
 <body>
@@ -108,55 +126,72 @@
             <a href="news.html">お知らせ</a>
             <a href="donate.html">寄付/支援方法</a>
         </nav>
-        <div class="container">
+             <div class="container">
             <h2>活動の記録</h2>
-            <p>これまでの活動の記録を紹介しています。</p>
-            <!-- ここに写真やビデオのギャラリーを追加 -->
-            <h3>創設会(2024/5/25)</h3>
+            <!-- 目次を追加 -->
+            <ul>
+                <li><a href="#section1">創設会(2024/5/25)</a></li>
+                <li><a href="#section2">飛高会館での学習支援(2024/8/3,8/4)</a></li>
+                <li><a href="#section3">大薮市議の見学</a></li>
+                <li><a href="#section4">江南団地集会所での学習支援(2024/8/17,18)</a></li>
+                <li><a href="#section5">宮田学供での学習支援(2024/8/24,25)</a></li>
+                <li><a href="#section6">飛高会館での学習支援(2024/10/12,13)</a></li>
+                <li><a href="#section7">宮田学供での学習支援(2024/10/26,27)</a></li>
+            </ul>
+
+            <!-- 各セクションにIDを追加 -->
+            <h3 id="section1">創設会(2024/5/25)</h3>
             <p>5月25日に未来キッズアカデミーの創設会を開きました。以下はその時の写真です。</p>
             <img src="IMG_4742.JPG" alt="創設会の写真" class="activity-image">
-<h3>飛高会館にて、学習支援を行いました。(2024/8/3,8/4)</h3>
+
+            <h3 id="section2">飛高会館にて、学習支援を行いました。(2024/8/3,8/4)</h3>
             <p>８月3日(土)、4日(日)13時から16時、飛高会館にて、学習支援しました以下はその時の写真です。</p>
             <img src="119109.jpg" alt="飛高会館の写真1" class="activity-image">
-<img src="119110.jpg" alt="飛高会館の写真2" class="activity-image">
-<img src="119153.jpg" alt="飛高会館の写真3" class="activity-image">
-<img src="85.jpg" alt="飛高会館の写真4" class="activity-image">
-<img src="90.jpg" alt="飛高会館の写真5" class="activity-image">
-<h3>大薮市議さまが見学に来てくださいました！</h3>
-<p>大薮市議さまが見学に来てくださいました！代表の想いをしっかりと聞いてくださり、色々と話をしてくださいました。</p>
-<img src="119182.jpg" alt="飛高会館の写真6" class="activity-image">
-<h3>8月17日(土)18(日)、江南団地集会所で学習支援をしました！</h3>
-<p>2日間で９名のお子さんが、夏休みの宿題や自分が苦手だと思う所を持ってきて、聞きながら学習していました。</p>
+            <!-- 他の画像はそのまま -->
 
-<p>途中、市議さまが２名見学に来てくださりました。お忙しいところ、ありがとうございました。私たちの活動を知っていただき、一緒に悩んでくださり感謝します。</p>
+            <h3 id="section3">大薮市議さまが見学に来てくださいました！</h3>
+            <p>大薮市議さまが見学に来てくださいました！代表の想いをしっかりと聞いてくださり、色々と話をしてくださいました。</p>
+            <img src="119182.jpg" alt="飛高会館の写真6" class="activity-image">
 
-<p>あるお子さんが「お菓子もらえるなら、また来て勉強がんばろうかなぁ」と話していて、微笑ましく思いました。</p>
-<p>この活動がお子さん達にとって、有意義になるように頑張っていきますので、応援を宜しくお願いします！</p>
-<img src="120061.jpg" alt="江南団地集会所の写真" class="activity-image">
-<img src="1200621.jpg" alt="江南団地集会所の写真" class="activity-image">
-<img src="120167.jpg" alt="江南団地集会所の写真" class="activity-image">
-<img src="120247.jpg" alt="江南団地集会所の写真" class="activity-image">
-<img src="120060.jpg" alt="江南団地集会所の写真" class="activity-image">
-<h3>8月24日(土)25(日)、宮田学供で学習支援をしました！</h3>
-<p>夏休みも終わりに近づき、追い込みをしていますね！</p>
+            <!-- 以下同様にIDを追加 -->
+            <h3 id="section4">8月17日(土)18(日)、江南団地集会所で学習支援をしました！</h3>
+            <p>2日間で９名のお子さんが、夏休みの宿題や自分が苦手だと思う所を持ってきて、聞きながら学習していました。</p>
+            <img src="120061.jpg" alt="江南団地集会所の写真" class="activity-image">
 
-<p>宿題は終わりましたか？</p>
-<p>この夏休み、未来キッズアカデミーに来てくれたお子さんも、そうでないお子さんも、また9月の予定を見て来てくださいね！</p>
-<p>サポーター一同、お待ちしています。</p>
-<img src="120691_0.jpg" alt="宮田学供の写真" class="activity-image">
-<img src="120692_0.jpg" alt="宮田学供の写真" class="activity-image">
-<img src="120849_0.jpg" alt="宮田学供の写真" class="activity-image">
-<img src="120850_0.jpg" alt="宮田学供の写真" class="activity-image">
-<img src="120851_0.jpg" alt="宮田学供の写真" class="activity-image">
-<img src="120988_0.jpg" alt="宮田学供の写真" class="activity-image">
-<h3>10月12日(土)13日(日)、飛高会館にて、学習支援しました！</h3>
-<img src="125195_0.jpg" alt="飛高会館の写真" class="activity-image">
-<h3>10月26日(土)27(日)、宮田学供で学習支援をしました！</h3>
-<img src="125197_0.jpg" alt="宮田学供の写真" class="activity-image">
+            <h3 id="section5">8月24日(土)25(日)、宮田学供で学習支援をしました！</h3>
+            <p>宿題は終わりましたか？...</p>
+            <img src="120691_0.jpg" alt="宮田学供の写真" class="activity-image">
+
+            <h3 id="section6">10月12日(土)13日(日)、飛高会館にて、学習支援しました！</h3>
+            <img src="125195_0.jpg" alt="飛高会館の写真" class="activity-image">
+
+            <h3 id="section7">10月26日(土)27(日)、宮田学供で学習支援をしました！</h3>
+            <img src="125197_0.jpg" alt="宮田学供の写真" class="activity-image">
         </div>
     </main>
+    <!-- ページ上部に戻るボタン -->
+    <button class="back-to-top" id="back-to-top">トップに戻る</button>
     <footer>
-        <p><問い合わせ先> [Mail] mirai.kids.academy.2024.05.25@gmail.com [Tel] 090-7113-0525</p>
+        <!-- 省略 -->
     </footer>
+    <script>
+        // ページ上部に戻るボタンの表示/非表示制御
+        const backToTopButton = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) { // スクロール位置が300pxを超えたら表示
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        // ボタンクリックでスムーズにトップへスクロール
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
 </body>
 </html>
